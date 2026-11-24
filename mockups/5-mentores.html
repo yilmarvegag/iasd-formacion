@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mentores · Voz y Misión</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+<div class="app">
+<aside class="side" aria-label="Barra lateral">
+  <div class="brand"><span class="brand-kicker">Escuela de Formación Bíblica</span><span class="brand-name">Voz y Misión</span></div>
+  <nav aria-label="Principal">
+    <ul class="navlist">
+      <li><a href="1-inicio.html"><svg class="ic"><use href="#i-home"/></svg>Inicio</a></li>
+      <li><a href="2-leccion.html"><svg class="ic"><use href="#i-book"/></svg>Mis módulos</a></li>
+      <li><a href="3-evaluacion.html"><svg class="ic"><use href="#i-check"/></svg>Cuestionarios</a></li>
+      <li><a href="4-predicador.html"><svg class="ic"><use href="#i-mic"/></svg>Mi púlpito</a></li>
+      <li class="sep" role="none"></li>
+      <li><a href="5-mentores.html" aria-current="page"><svg class="ic"><use href="#i-users"/></svg>Mentores</a></li>
+      <li><a href="6-recursos.html"><svg class="ic"><use href="#i-library"/></svg>Recursos</a></li>
+    </ul>
+  </nav>
+  <div class="who"><strong>Yilmar Vega</strong><br>Ruta: Evangelismo juvenil</div>
+</aside>
+
+<div class="col">
+<header class="topbar">
+  <p class="brand-mini">Voz y Misión</p>
+  <form class="search" role="search" data-buscador>
+    <label class="vh" for="q">Buscar en la escuela</label>
+    <svg class="ic"><use href="#i-search"/></svg>
+    <input id="q" type="search" placeholder="Buscar en la escuela" autocomplete="off">
+    <button class="btn btn-line" type="submit">Buscar</button>
+  </form>
+  <div class="tools">
+    <div class="fs" role="group" aria-label="Tamaño del texto">
+      <button type="button" id="fs-down" aria-label="A menos: reducir el tamaño del texto">A−</button>
+      <button type="button" id="fs-up" aria-label="A más: aumentar el tamaño del texto">A+</button>
+    </div>
+    <span id="fs-state" class="vh" role="status"></span>
+    <a class="tool only-m" href="5-mentores.html" aria-current="page"><svg class="ic"><use href="#i-users"/></svg>Mentores</a><a class="tool only-m" href="6-recursos.html"><svg class="ic"><use href="#i-library"/></svg>Recursos</a>
+    <a class="tool" href="#ayuda"><svg class="ic"><use href="#i-help"/></svg>Ayuda</a>
+    <button class="tool" type="button" data-proto="Mi cuenta no forma parte de esta maqueta. Aquí estarían tus datos y cerrar sesión."><svg class="ic"><use href="#i-user"/></svg>Mi cuenta</button>
+  </div>
+</header>
+
+<main id="contenido" class="main" tabindex="-1">
+<nav class="crumbs" aria-label="Ruta de navegación"><ol><li><a href="1-inicio.html">Inicio</a></li><li><span aria-current="page">Mentores</span></li></ol></nav>
+<div class="xc-head page-head"><p class="xc-eyebrow">Quiénes te acompañan</p><h1>Mentores</h1><p class="xc-lead">Pastores que acompañan tu formación. Escribe al que mejor conozca tu tema. Los nombres y datos de contacto son de ejemplo.</p></div>
+<div class="xc-filters" role="group" aria-label="Filtrar mentores por especialidad" data-filter-group data-target="lista-mentores" data-count="cuenta-mentores" data-noun="mentores" data-noun-one="mentor"><button type="button" class="xc-fbtn" data-filter="todos" aria-pressed="true">Todos</button><button type="button" class="xc-fbtn" data-filter="predicacion" aria-pressed="false">Predicación</button><button type="button" class="xc-fbtn" data-filter="jovenes" aria-pressed="false">Jóvenes</button><button type="button" class="xc-fbtn" data-filter="familia" aria-pressed="false">Familia</button><button type="button" class="xc-fbtn" data-filter="mayordomia" aria-pressed="false">Mayordomía</button><button type="button" class="xc-fbtn" data-filter="discipulado" aria-pressed="false">Discipulado</button><button type="button" class="xc-fbtn" data-filter="estudios" aria-pressed="false">Estudios bíblicos</button></div><p class="xc-count" id="cuenta-mentores" role="status" aria-live="polite"></p><ul class="xc-grid" id="lista-mentores"><li class="xc-card" id="m-luis" data-cat="predicacion"><div class="xc-person"><span class="xc-avatar" aria-hidden="true">LB</span><div><h2 class="xc-title">Pr. Luis Bello</h2><p class="xc-spec">Predicación y estructura del sermón</p></div></div><p class="xc-desc">Mentor de tu ruta. Revisa tus sermones y avala los módulos 1 a 5 y 7.</p><dl class="xc-dl"><dt>Avala</dt><dd>Módulos 1 a 5 y 7</dd><dt>Correo</dt><dd><a href="mailto:luis.bello@example.org">luis.bello@example.org</a></dd><dt>Teléfono</dt><dd>+57 300 555 0101</dd><dt>Atiende</dt><dd>Lunes a jueves, 7:00 a 9:00 pm</dd></dl><div class="xc-actions"><a class="btn btn-line" href="mailto:luis.bello@example.org"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-mail"/></svg>Escribir a Pr. Luis Bello</a></div></li><li class="xc-card" id="m-camilo" data-cat="jovenes"><div class="xc-person"><span class="xc-avatar" aria-hidden="true">CP</span><div><h2 class="xc-title">Pr. Camilo Paba</h2><p class="xc-spec">Jóvenes y evangelismo juvenil</p></div></div><p class="xc-desc">Acompaña el trabajo con jóvenes y comenta cómo conecta tu sermón con ese público.</p><dl class="xc-dl"><dt>Avala</dt><dd>Módulo 6 · Manejo del público joven</dd><dt>Correo</dt><dd><a href="mailto:camilo.paba@example.org">camilo.paba@example.org</a></dd><dt>Teléfono</dt><dd>+57 300 555 0102</dd><dt>Atiende</dt><dd>Martes y sábado, 4:00 a 6:00 pm</dd></dl><div class="xc-actions"><a class="btn btn-line" href="mailto:camilo.paba@example.org"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-mail"/></svg>Escribir a Pr. Camilo Paba</a></div></li><li class="xc-card" id="m-samuel" data-cat="familia"><div class="xc-person"><span class="xc-avatar" aria-hidden="true">SO</span><div><h2 class="xc-title">Pr. Samuel Ortega</h2><p class="xc-spec">Familia</p></div></div><p class="xc-desc">Orienta estudios bíblicos para parejas, padres e hijos.</p><dl class="xc-dl"><dt>Avala</dt><dd>Consulta abierta (no avala módulos de esta ruta)</dd><dt>Correo</dt><dd><a href="mailto:samuel.ortega@example.org">samuel.ortega@example.org</a></dd><dt>Teléfono</dt><dd>+57 300 555 0103</dd><dt>Atiende</dt><dd>Miércoles, 6:00 a 8:00 pm</dd></dl><div class="xc-actions"><a class="btn btn-line" href="mailto:samuel.ortega@example.org"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-mail"/></svg>Escribir a Pr. Samuel Ortega</a></div></li><li class="xc-card" id="m-andres" data-cat="mayordomia"><div class="xc-person"><span class="xc-avatar" aria-hidden="true">AR</span><div><h2 class="xc-title">Pr. Andrés Ruiz</h2><p class="xc-spec">Mayordomía</p></div></div><p class="xc-desc">Ayuda a presentar la mayordomía cristiana de forma clara y sin presión.</p><dl class="xc-dl"><dt>Avala</dt><dd>Consulta abierta (no avala módulos de esta ruta)</dd><dt>Correo</dt><dd><a href="mailto:andres.ruiz@example.org">andres.ruiz@example.org</a></dd><dt>Teléfono</dt><dd>+57 300 555 0104</dd><dt>Atiende</dt><dd>Jueves, 5:00 a 7:00 pm</dd></dl><div class="xc-actions"><a class="btn btn-line" href="mailto:andres.ruiz@example.org"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-mail"/></svg>Escribir a Pr. Andrés Ruiz</a></div></li><li class="xc-card" id="m-daniel" data-cat="discipulado"><div class="xc-person"><span class="xc-avatar" aria-hidden="true">DH</span><div><h2 class="xc-title">Pr. Daniel Herrera</h2><p class="xc-spec">Discipulado</p></div></div><p class="xc-desc">Acompaña a los nuevos bautizados y a quienes los guían en sus primeros pasos.</p><dl class="xc-dl"><dt>Avala</dt><dd>Consulta abierta (no avala módulos de esta ruta)</dd><dt>Correo</dt><dd><a href="mailto:daniel.herrera@example.org">daniel.herrera@example.org</a></dd><dt>Teléfono</dt><dd>+57 300 555 0105</dd><dt>Atiende</dt><dd>Viernes, 3:00 a 5:00 pm</dd></dl><div class="xc-actions"><a class="btn btn-line" href="mailto:daniel.herrera@example.org"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-mail"/></svg>Escribir a Pr. Daniel Herrera</a></div></li><li class="xc-card" id="m-esteban" data-cat="estudios"><div class="xc-person"><span class="xc-avatar" aria-hidden="true">EM</span><div><h2 class="xc-title">Pr. Esteban Molina</h2><p class="xc-spec">Estudios bíblicos</p></div></div><p class="xc-desc">Resuelve dudas de contexto e interpretación al preparar un estudio. Apoya el módulo 4.</p><dl class="xc-dl"><dt>Avala</dt><dd>Apoya el módulo 4 · Conocer la Biblia</dd><dt>Correo</dt><dd><a href="mailto:esteban.molina@example.org">esteban.molina@example.org</a></dd><dt>Teléfono</dt><dd>+57 300 555 0106</dd><dt>Atiende</dt><dd>Lunes y miércoles, 12:00 a 2:00 pm</dd></dl><div class="xc-actions"><a class="btn btn-line" href="mailto:esteban.molina@example.org"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-mail"/></svg>Escribir a Pr. Esteban Molina</a></div></li></ul>
+<section class="panel help" id="ayuda" aria-labelledby="ayuda-t">
+      <h2 id="ayuda-t">¿Necesitas ayuda?</h2>
+      <div class="person" style="margin-top:.5rem"><div class="avatar" aria-hidden="true">LB</div><div><strong>Pr. Luis Bello</strong><p class="note">Responde en menos de 48 horas</p></div></div>
+      <p class="note" style="margin-top:.75rem">luis.bello@example.org</p>
+      <a class="btn btn-line" style="margin-top:1rem" href="mailto:luis.bello@example.org"><svg class="ic"><use href="#i-mail"/></svg>Escribir a mi mentor</a>
+    </section>
+
+</main>
+</div>
+</div>
+
+<dialog id="dlg-send" aria-labelledby="dlg-send-t" data-done="Sermón enviado al Pr. Luis Bello. Te responderá en menos de 48 horas.">
+  <form method="dialog">
+    <h2 id="dlg-send-t">¿Enviar este sermón al Pr. Luis Bello?</h2>
+    <p>Tu mentor lo revisará y te responderá en menos de 48 horas. Mientras lo revisa no podrás cambiarlo. Si todavía no estás seguro, guarda un borrador y envíalo después.</p>
+    <div class="actions">
+      <button class="btn btn-quiet" type="submit" value="cancel">Volver y seguir editando</button>
+      <button class="btn" type="submit" value="ok">Sí, enviar a mi mentor</button>
+    </div>
+  </form>
+</dialog>
+
+<nav class="tabbar" aria-label="Principal (móvil)">
+  <ul>
+    <li><a href="1-inicio.html"><svg class="ic"><use href="#i-home"/></svg>Inicio</a></li>
+    <li><a href="2-leccion.html"><svg class="ic"><use href="#i-book"/></svg>Módulos</a></li>
+    <li><a href="3-evaluacion.html"><svg class="ic"><use href="#i-check"/></svg>Cuestionarios</a></li>
+    <li><a href="4-predicador.html"><svg class="ic"><use href="#i-mic"/></svg>Púlpito</a></li>
+  </ul>
+</nav>
+<script src="app.js"></script>
+<script src="extras.js"></script>
+</body>
+</html>

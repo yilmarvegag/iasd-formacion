@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mi púlpito · Constructor de sermones · Voz y Misión</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+<div class="app">
+<aside class="side" aria-label="Barra lateral">
+  <div class="brand"><span class="brand-kicker">Escuela de Formación Bíblica</span><span class="brand-name">Voz y Misión</span></div>
+  <nav aria-label="Principal">
+    <ul class="navlist">
+      <li><a href="1-inicio.html"><svg class="ic"><use href="#i-home"/></svg>Inicio</a></li>
+      <li><a href="2-leccion.html"><svg class="ic"><use href="#i-book"/></svg>Mis módulos</a></li>
+      <li><a href="3-evaluacion.html"><svg class="ic"><use href="#i-check"/></svg>Cuestionarios</a></li>
+      <li><a href="4-predicador.html" aria-current="page"><svg class="ic"><use href="#i-mic"/></svg>Mi púlpito</a></li>
+      <li class="sep" role="none"></li>
+      <li><a href="5-mentores.html"><svg class="ic"><use href="#i-users"/></svg>Mentores</a></li>
+      <li><a href="6-recursos.html"><svg class="ic"><use href="#i-library"/></svg>Recursos</a></li>
+    </ul>
+  </nav>
+  <div class="who"><strong>Yilmar Vega</strong><br>Ruta: Evangelismo juvenil</div>
+</aside>
+
+<div class="col">
+<header class="topbar">
+  <p class="brand-mini">Voz y Misión</p>
+  <form class="search" role="search" data-buscador>
+    <label class="vh" for="q">Buscar en la escuela</label>
+    <svg class="ic"><use href="#i-search"/></svg>
+    <input id="q" type="search" placeholder="Buscar en la escuela" autocomplete="off">
+    <button class="btn btn-line" type="submit">Buscar</button>
+  </form>
+  <div class="tools">
+    <div class="fs" role="group" aria-label="Tamaño del texto">
+      <button type="button" id="fs-down" aria-label="A menos: reducir el tamaño del texto">A−</button>
+      <button type="button" id="fs-up" aria-label="A más: aumentar el tamaño del texto">A+</button>
+    </div>
+    <span id="fs-state" class="vh" role="status"></span>
+    <a class="tool only-m" href="5-mentores.html"><svg class="ic"><use href="#i-users"/></svg>Mentores</a><a class="tool only-m" href="6-recursos.html"><svg class="ic"><use href="#i-library"/></svg>Recursos</a>
+    <a class="tool" href="#ayuda"><svg class="ic"><use href="#i-help"/></svg>Ayuda</a>
+    <button class="tool" type="button" data-proto="Mi cuenta no forma parte de esta maqueta. Aquí estarían tus datos y cerrar sesión."><svg class="ic"><use href="#i-user"/></svg>Mi cuenta</button>
+  </div>
+</header>
+
+<main id="contenido" class="main" tabindex="-1">
+  <nav class="crumbs" aria-label="Ruta de navegación">
+    <ol>
+      <li><a href="1-inicio.html">Inicio</a></li>
+      <li><span aria-current="page">Mi púlpito</span></li>
+    </ol>
+  </nav>
+
+  <div class="page-head row sp" style="align-items:flex-end">
+    <div><p class="eyebrow">Mi púlpito</p><h1>Constructor de sermones</h1></div>
+    <span class="chip ok"><svg class="ic"><use href="#i-check-circle"/></svg>Guardado hace 1 minuto</span>
+  </div>
+
+  <div class="grid g-main">
+  <div class="stack">
+    <section class="panel" aria-label="Datos del sermón">
+      <div class="field"><label for="t">Título</label><input id="t" type="text" value="Una decisión que cambia todo: ven y sigue a Jesús"></div>
+      <div class="grid g2" style="margin-top:1rem">
+        <div class="field"><label for="tb">Texto base</label><input id="tb" type="text" value="Hechos 8:26-39"></div>
+        <div class="field"><label for="pub">Público</label><input id="pub" type="text" value="Jóvenes de 15 a 25 años · Campaña de verano"></div>
+      </div>
+    </section>
+
+    <section class="panel" aria-labelledby="s1">
+      <div class="row sp"><h2 id="s1" style="font-size:1.25rem"><span style="color:var(--accent-ink)">I.</span> Introducción</h2><span class="chip plain"><svg class="ic"><use href="#i-clock"/></svg>2 min</span></div>
+      <label class="vh" for="intro">Introducción</label>
+      <textarea id="intro" rows="3" style="margin-top:.75rem">¿Alguna vez sentiste que tenías una pregunta que nadie respondía? El etíope tenía una…</textarea>
+    </section>
+
+    <section class="panel" aria-labelledby="s2">
+      <div class="row sp"><h2 id="s2" style="font-size:1.25rem"><span style="color:var(--accent-ink)">II.</span> Cuerpo · 3 puntos</h2><span class="chip plain"><svg class="ic"><use href="#i-clock"/></svg>12 min</span></div>
+      <ol class="modules" style="margin-top:.75rem">
+        <li class="module" style="grid-template-columns:2.5rem 1fr"><span class="num" aria-hidden="true" style="font-size:1.5rem">1</span><div><h3>Dios te busca</h3><p class="note">Hechos 8:26-29 · ilustración: un GPS</p></div></li>
+        <li class="module" style="grid-template-columns:2.5rem 1fr"><span class="num" aria-hidden="true" style="font-size:1.5rem">2</span><div><h3>La Biblia responde</h3><p class="note">Hechos 8:30-35 · Isaías 53</p></div></li>
+        <li class="module" style="grid-template-columns:2.5rem 1fr"><span class="num" aria-hidden="true" style="font-size:1.5rem">3</span><div><h3>¿Qué impide?</h3><p class="note">Hechos 8:36-39</p></div></li>
+      </ol>
+      <button class="btn btn-quiet" style="margin-top:1rem" type="button" data-proto="Añadir puntos no forma parte de esta maqueta."><svg class="ic"><use href="#i-plus"/></svg>Añadir punto</button>
+    </section>
+
+    <section class="panel is-mark" aria-labelledby="s3">
+      <div class="row sp"><h2 id="s3" style="font-size:1.25rem"><span style="color:var(--accent-ink)">III.</span> El llamado al bautismo</h2><span class="chip plain"><svg class="ic"><use href="#i-clock"/></svg>3 min</span></div>
+      <label class="vh" for="llamado-sermon">El llamado al bautismo</label>
+      <textarea id="llamado-sermon" rows="3" data-draft style="margin-top:.75rem">Hoy Jesús te hace la misma pregunta: ¿qué impide que seas bautizado? Si quieres dar ese paso, ponte de pie…</textarea>
+      <p class="note" style="display:flex;gap:.6rem;margin-top:.75rem"><svg class="ic" style="color:var(--accent-ink);margin-top:.2rem"><use href="#i-bulb"/></svg><span><strong>Sugerencia del módulo 3:</strong> ofrece un único paso y deja un momento de silencio antes de pedir una respuesta.</span></p>
+    </section>
+
+    <p class="note">Duración total estimada: 17 minutos.</p>
+
+    <div class="actions">
+      <button class="btn btn-lg" type="button" data-open="dlg-send"><svg class="ic"><use href="#i-send"/></svg>Enviar a mi mentor</button>
+      <button class="btn btn-quiet" type="button" data-save><svg class="ic"><use href="#i-save"/></svg>Guardar borrador</button>
+      <button class="btn btn-quiet" type="button" data-proto><svg class="ic"><use href="#i-clock"/></svg>Practicar con cronómetro</button>
+      <button class="btn btn-quiet" type="button" data-proto><svg class="ic"><use href="#i-download"/></svg>Guardar como PDF</button>
+    </div>
+  </div>
+
+  <aside class="stack" aria-label="Retroalimentación y recursos">
+    <section class="panel" id="retroalimentacion" aria-labelledby="retro-t" style="scroll-margin-top:1rem">
+      <h2 id="retro-t" class="eyebrow">Retroalimentación del mentor</h2>
+      <div class="person" style="margin-top:.75rem"><div class="avatar" aria-hidden="true">LB</div><div><strong>Pr. Luis Bello</strong><p class="note">Ayer · Borrador 2</p></div></div>
+      <table class="results" style="margin-top:.75rem">
+        <caption class="vh">Valoración del mentor</caption>
+        <thead><tr><th scope="col">Criterio</th><th scope="col">Nivel</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Estructura</th><td><span class="dots" aria-hidden="true"><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i></i></span>4 de 5</td></tr>
+          <tr><th scope="row">Fidelidad bíblica</th><td><span class="dots" aria-hidden="true"><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i></span>5 de 5</td></tr>
+          <tr><th scope="row">Conexión con jóvenes</th><td><span class="dots" aria-hidden="true"><i class="f"></i><i class="f"></i><i class="f"></i><i></i><i></i></span>3 de 5</td></tr>
+          <tr><th scope="row">Llamado</th><td><span class="dots" aria-hidden="true"><i class="f"></i><i class="f"></i><i></i><i></i><i></i></span>2 de 5</td></tr>
+        </tbody>
+      </table>
+      <figure class="quote-mentor" style="margin-top:1rem"><blockquote><p>“Tu punto 2 es muy fuerte. El llamado aún es largo; reduce a una frase.”</p></blockquote><small>Comentario sobre III. El llamado al bautismo</small></figure>
+      <button class="btn btn-quiet" style="margin-top:1rem" type="button" data-proto><svg class="ic"><use href="#i-message"/></svg>Responder comentario</button>
+    </section>
+
+    <section class="panel" aria-labelledby="rec">
+      <h2 id="rec" class="eyebrow">Recursos de consulta</h2>
+      <ul class="stack" style="list-style:none;padding:0;margin-top:.5rem">
+        <li><button class="btn btn-quiet" style="width:100%;justify-content:flex-start" type="button" data-proto><svg class="ic"><use href="#i-message"/></svg>Ilustraciones</button></li>
+        <li><button class="btn btn-quiet" style="width:100%;justify-content:flex-start" type="button" data-proto><svg class="ic"><use href="#i-book"/></svg>Concordancia y contexto</button></li>
+        <li><button class="btn btn-quiet" style="width:100%;justify-content:flex-start" type="button" data-proto><svg class="ic"><use href="#i-mic"/></svg>Voz y presencia</button></li>
+      </ul>
+      <p class="note" style="margin-top:.75rem">Los módulos 5 y 6 amplían estos temas cuando los desbloquees.</p>
+    </section>
+
+    <section class="panel" aria-labelledby="reg">
+      <h2 id="reg" class="eyebrow">Registro de predicaciones</h2>
+      <ol class="steps" style="margin-top:.5rem">
+        <li class="done"><svg class="ic"><use href="#i-check-circle"/></svg><div><span class="state">Realizada</span><span class="t">Culto joven</span><span class="note">28 de marzo</span></div></li>
+        <li class="done"><svg class="ic"><use href="#i-check-circle"/></svg><div><span class="state">Realizada</span><span class="t">Escuela Sabática juvenil</span><span class="note">12 de abril</span></div></li>
+        <li class="now"><svg class="ic"><use href="#i-calendar"/></svg><div><span class="state">Próxima</span><span class="t">Campaña de verano</span><span class="note">20 de mayo</span></div></li>
+      </ol>
+    </section>
+
+    <section class="panel help" id="ayuda" aria-labelledby="ayuda-t">
+      <h2 id="ayuda-t">¿Necesitas ayuda?</h2>
+      <div class="person" style="margin-top:.5rem"><div class="avatar" aria-hidden="true">LB</div><div><strong>Pr. Luis Bello</strong><p class="note">Responde en menos de 48 horas</p></div></div>
+      <p class="note" style="margin-top:.75rem">luis.bello@example.org</p>
+      <a class="btn btn-line" style="margin-top:1rem" href="mailto:luis.bello@example.org"><svg class="ic"><use href="#i-mail"/></svg>Escribir a mi mentor</a>
+    </section>
+  </aside>
+  </div>
+</main>
+</div>
+</div>
+
+<dialog id="dlg-send" aria-labelledby="dlg-send-t" data-done="Sermón enviado al Pr. Luis Bello. Te responderá en menos de 48 horas.">
+  <form method="dialog">
+    <h2 id="dlg-send-t">¿Enviar este sermón al Pr. Luis Bello?</h2>
+    <p>Tu mentor lo revisará y te responderá en menos de 48 horas. Mientras lo revisa no podrás cambiarlo. Si todavía no estás seguro, guarda un borrador y envíalo después.</p>
+    <div class="actions">
+      <button class="btn btn-quiet" type="submit" value="cancel">Volver y seguir editando</button>
+      <button class="btn" type="submit" value="ok">Sí, enviar a mi mentor</button>
+    </div>
+  </form>
+</dialog>
+
+<nav class="tabbar" aria-label="Principal (móvil)">
+  <ul>
+    <li><a href="1-inicio.html"><svg class="ic"><use href="#i-home"/></svg>Inicio</a></li>
+    <li><a href="2-leccion.html"><svg class="ic"><use href="#i-book"/></svg>Módulos</a></li>
+    <li><a href="3-evaluacion.html"><svg class="ic"><use href="#i-check"/></svg>Cuestionarios</a></li>
+    <li><a href="4-predicador.html" aria-current="page"><svg class="ic"><use href="#i-mic"/></svg>Púlpito</a></li>
+  </ul>
+</nav>
+<script src="app.js"></script>
+<script src="extras.js"></script>
+</body>
+</html>

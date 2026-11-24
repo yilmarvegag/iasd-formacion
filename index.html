@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Escuela de formación bíblica · Maquetas de diseño</title>
+<meta name="description" content="Tres maquetas ficticias de la escuela de formación bíblica para predicadores. Cada enlace se abre en una pestaña nueva.">
+<style>
+:root{
+  --bg:#FAF6EE; --surface:#FFFFFF; --ink:#1B2433; --muted:#475069; --heading:#14284B;
+  --line:#DDD4C0; --edge:#7B7461; --brand:#14284B; --brand-2:#1F3A68; --gold:#C8963E; --gold-ink:#6F4E0C;
+  --serif:Fraunces,Georgia,"Times New Roman",serif;
+  --text:"Atkinson Hyperlegible",Verdana,"Segoe UI",sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box}
+*{margin:0}
+html{font-size:112.5%}
+body{font-family:var(--text);line-height:1.65;background:var(--bg);color:var(--ink);padding:0 1.25rem 4rem}
+main{width:min(100%,64rem);margin-inline:auto}
+header{padding:3rem 0 2rem;border-bottom:1px solid var(--line)}
+.eyebrow{font-size:.875rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-ink)}
+h1,h2{font-family:var(--serif);color:var(--heading);font-weight:600;line-height:1.2}
+h1{font-size:clamp(2rem,1.4rem + 2.6vw,2.75rem);margin:.5rem 0 .75rem}
+h2{font-size:1.5rem}
+.lead{max-width:42rem;color:var(--muted)}
+.list{list-style:none;padding:0;margin:2rem 0 0;display:grid;gap:1.25rem}
+.card{display:grid;grid-template-rows:auto auto 1fr auto auto;gap:1rem;background:var(--surface);border:1px solid var(--line);border-top:4px solid var(--brand);border-radius:6px;padding:1.5rem}
+.card.is-main{border-top-color:var(--gold)}
+.top{display:flex;flex-wrap:wrap;gap:.5rem 1rem;align-items:center;justify-content:space-between}
+.tag{display:inline-flex;align-items:center;gap:.4rem;font-size:.9375rem;font-weight:700;color:#5F4208;background:#F3E4C4;border:1px solid #C9A760;padding:.15rem .6rem;border-radius:4px}
+.tag.plain{color:var(--muted);background:#fff;border-color:var(--edge)}
+.sw{display:flex;gap:.35rem}
+.sw i{width:1.25rem;height:1.25rem;border-radius:50%;border:1px solid rgba(0,0,0,.25)}
+.card p{color:var(--ink)}
+.btn{display:inline-flex;align-items:center;gap:.6rem;min-height:3rem;padding:.55rem 1.25rem;background:var(--brand);color:#fff;font:inherit;font-weight:700;text-decoration:none;border:1.5px solid var(--brand);border-radius:4px;width:fit-content}
+.btn:hover{background:var(--brand-2);border-color:var(--brand-2)}
+.btn svg{width:1.1em;height:1.1em;flex:none}
+.screens{border-top:1px solid var(--line);padding-top:.75rem}
+.screens h3{font-size:.875rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-bottom:.25rem}
+.screens ul{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:0 1.25rem}
+.screens a{display:inline-flex;align-items:center;min-height:3rem;color:var(--brand-2);font-weight:600;text-decoration:underline;text-underline-offset:.2em}
+.screens a:hover{color:var(--heading);text-decoration-thickness:2px}
+:focus-visible{outline:3px solid var(--brand-2);outline-offset:3px;border-radius:3px}
+.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+footer{margin-top:2.5rem;color:var(--muted);font-size:1rem;max-width:48rem}
+@media(min-width:56rem){.list{grid-template-columns:repeat(3,1fr)}}
+@media(prefers-reduced-motion:no-preference){.btn{transition:background .2s}}
+</style>
+</head>
+<body>
+<main>
+ <header>
+  <p class="eyebrow">Escuela de formación bíblica</p>
+  <h1>Maquetas de diseño</h1>
+  <p class="lead">Tres lenguajes visuales para la misma plataforma, con las mismas pantallas y datos de ejemplo. Cada enlace se abre en una pestaña nueva.</p>
+ </header>
+
+ <ul class="list">
+  <li class="card is-main">
+   <div class="top"><span class="tag">Diseño elegido</span><span class="sw" aria-hidden="true"><i style="background:#14284B"></i><i style="background:#C8963E"></i><i style="background:#FAF6EE"></i></span></div>
+   <h2>Voz y Misión</h2>
+   <p>Editorial sobrio en azul marino, dorado y crema. Barra lateral en escritorio y barra inferior en móvil.</p>
+   <a class="btn" href="mockups/1-inicio.html" target="_blank" rel="noopener noreferrer">Abrir maqueta<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 4h6v6"/><path d="M20 4l-9 9"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg><span class="vh">(se abre en una pestaña nueva)</span></a>
+   <nav class="screens" aria-label="Pantallas de Voz y Misión">
+    <h3>Ir directo a</h3>
+    <ul>
+     <li><a href="mockups/1-inicio.html" target="_blank" rel="noopener noreferrer">Inicio<span class="vh"> (pestaña nueva)</span></a></li>
+     <li><a href="mockups/2-leccion.html" target="_blank" rel="noopener noreferrer">Lección<span class="vh"> (pestaña nueva)</span></a></li>
+     <li><a href="mockups/3-evaluacion.html" target="_blank" rel="noopener noreferrer">Evaluación<span class="vh"> (pestaña nueva)</span></a></li>
+     <li><a href="mockups/4-predicador.html" target="_blank" rel="noopener noreferrer">Púlpito<span class="vh"> (pestaña nueva)</span></a></li>
+     <li><a href="mockups/5-mentores.html" target="_blank" rel="noopener noreferrer">Mentores<span class="vh"> (pestaña nueva)</span></a></li>
+     <li><a href="mockups/6-recursos.html" target="_blank" rel="noopener noreferrer">Recursos<span class="vh"> (pestaña nueva)</span></a></li>
+    </ul>
+   </nav>
+  </li>
+
+  <li class="card">
+   <div class="top"><span class="tag plain">Alternativa 2</span><span class="sw" aria-hidden="true"><i style="background:#14171A"></i><i style="background:#7A1F2B"></i><i style="background:#F1F1EE"></i></span></div>
+   <h2>Sendero</h2>
+   <p>Rejilla tipográfica en tinta y granate sobre papel gris. El avance se lee como un sendero vertical y la lección como un libro, con notas al margen.</p>
+   <a class="btn" href="concepto-2/1-inicio.html" target="_blank" rel="noopener noreferrer">Abrir maqueta<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 4h6v6"/><path d="M20 4l-9 9"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg><span class="vh">(se abre en una pestaña nueva)</span></a>
+   <nav class="screens" aria-label="Pantallas de Sendero">
+    <h3>Ir directo a</h3>
+    <ul>
+     <li><a href="concepto-2/1-inicio.html" target="_blank" rel="noopener noreferrer">Inicio<span class="vh"> (pestaña nueva)</span></a></li>
+     <li><a href="concepto-2/2-leccion.html" target="_blank" rel="noopener noreferrer">Lección<span class="vh"> (pestaña nueva)</span></a></li>
+     <li><a href="concepto-2/3-evaluacion.html" target="_blank" rel="noopener noreferrer">Evaluación<span class="vh"> (pestaña nueva)</span></a></li>
+     <li><a href="concepto-2/4-predicador.html" target="_blank" rel="noopener noreferrer">Púlpito<span class="vh"> (pestaña nueva)</span></a></li>
+     <li><a href="concepto-2/5-mentores.html" target="_blank" rel="noopener noreferrer">Mentores<span class="vh"> (pestaña nueva)</span></a></li>
+     <li><a href="concepto-2/6-recursos.html" target="_blank" rel="noopener noreferrer">Recursos<span class="vh"> (pestaña nueva)</span></a></li>
+    </ul>
+   </nav>
+  </li>
+
+  <li class="card">
+   <div class="top"><span class="tag plain">Alternativa 3</span><span class="sw" aria-hidden="true"><i style="background:#0B5148"></i><i style="background:#F2B544"></i><i style="background:#E6EDEA"></i></span></div>
+   <h2>Atrio</h2>
+   <p>Mosaico luminoso en verde petróleo, salvia y arena. Dock flotante, avance en anillo de siete tramos y sermón que se arma moviendo bloques.</p>
+   <a class="btn" href="concepto-3/1-inicio.html" target="_blank" rel="noopener noreferrer">Abrir maqueta<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 4h6v6"/><path d="M20 4l-9 9"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg><span class="vh">(se abre en una pestaña nueva)</span></a>
+   <nav class="screens" aria-label="Pantallas de Atrio">
+    <h3>Ir directo a</h3>
+    <ul>
+     <li><a href="concepto-3/1-inicio.html" target="_blank" rel="noopener noreferrer">Inicio<span class="vh"> (pestaña nueva)</span></a></li>
+     <li><a href="concepto-3/2-leccion.html" target="_blank" rel="noopener noreferrer">Lección<span class="vh"> (pestaña nueva)</span></a></li>
+     <li><a href="concepto-3/3-evaluacion.html" target="_blank" rel="noopener noreferrer">Evaluación<span class="vh"> (pestaña nueva)</span></a></li>
+     <li><a href="concepto-3/4-predicador.html" target="_blank" rel="noopener noreferrer">Púlpito<span class="vh"> (pestaña nueva)</span></a></li>
+     <li><a href="concepto-3/5-mentores.html" target="_blank" rel="noopener noreferrer">Mentores<span class="vh"> (pestaña nueva)</span></a></li>
+     <li><a href="concepto-3/6-recursos.html" target="_blank" rel="noopener noreferrer">Recursos<span class="vh"> (pestaña nueva)</span></a></li>
+    </ul>
+   </nav>
+  </li>
+ </ul>
+
+ <footer>
+  <p>Todos los datos son de ejemplo. Las fuentes web necesitan internet; sin conexión se usan fuentes del sistema.</p>
+ </footer>
+</main>
+</body>
+</html>

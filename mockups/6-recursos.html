@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Recursos · Voz y Misión</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+<div class="app">
+<aside class="side" aria-label="Barra lateral">
+  <div class="brand"><span class="brand-kicker">Escuela de Formación Bíblica</span><span class="brand-name">Voz y Misión</span></div>
+  <nav aria-label="Principal">
+    <ul class="navlist">
+      <li><a href="1-inicio.html"><svg class="ic"><use href="#i-home"/></svg>Inicio</a></li>
+      <li><a href="2-leccion.html"><svg class="ic"><use href="#i-book"/></svg>Mis módulos</a></li>
+      <li><a href="3-evaluacion.html"><svg class="ic"><use href="#i-check"/></svg>Cuestionarios</a></li>
+      <li><a href="4-predicador.html"><svg class="ic"><use href="#i-mic"/></svg>Mi púlpito</a></li>
+      <li class="sep" role="none"></li>
+      <li><a href="5-mentores.html"><svg class="ic"><use href="#i-users"/></svg>Mentores</a></li>
+      <li><a href="6-recursos.html" aria-current="page"><svg class="ic"><use href="#i-library"/></svg>Recursos</a></li>
+    </ul>
+  </nav>
+  <div class="who"><strong>Yilmar Vega</strong><br>Ruta: Evangelismo juvenil</div>
+</aside>
+
+<div class="col">
+<header class="topbar">
+  <p class="brand-mini">Voz y Misión</p>
+  <form class="search" role="search" data-buscador>
+    <label class="vh" for="q">Buscar en la escuela</label>
+    <svg class="ic"><use href="#i-search"/></svg>
+    <input id="q" type="search" placeholder="Buscar en la escuela" autocomplete="off">
+    <button class="btn btn-line" type="submit">Buscar</button>
+  </form>
+  <div class="tools">
+    <div class="fs" role="group" aria-label="Tamaño del texto">
+      <button type="button" id="fs-down" aria-label="A menos: reducir el tamaño del texto">A−</button>
+      <button type="button" id="fs-up" aria-label="A más: aumentar el tamaño del texto">A+</button>
+    </div>
+    <span id="fs-state" class="vh" role="status"></span>
+    <a class="tool only-m" href="5-mentores.html"><svg class="ic"><use href="#i-users"/></svg>Mentores</a><a class="tool only-m" href="6-recursos.html" aria-current="page"><svg class="ic"><use href="#i-library"/></svg>Recursos</a>
+    <a class="tool" href="#ayuda"><svg class="ic"><use href="#i-help"/></svg>Ayuda</a>
+    <button class="tool" type="button" data-proto="Mi cuenta no forma parte de esta maqueta. Aquí estarían tus datos y cerrar sesión."><svg class="ic"><use href="#i-user"/></svg>Mi cuenta</button>
+  </div>
+</header>
+
+<main id="contenido" class="main" tabindex="-1">
+<nav class="crumbs" aria-label="Ruta de navegación"><ol><li><a href="1-inicio.html">Inicio</a></li><li><span aria-current="page">Recursos</span></li></ol></nav>
+<div class="xc-head page-head"><p class="xc-eyebrow">Biblioteca de la escuela</p><h1>Recursos</h1><p class="xc-lead">Guías, videos y plantillas que acompañan cada módulo. El contenido de esta pantalla es de ejemplo.</p></div>
+<div class="xc-filters" role="group" aria-label="Filtrar recursos por tipo" data-filter-group data-target="lista-recursos" data-count="cuenta-recursos" data-noun="recursos" data-noun-one="recurso"><button type="button" class="xc-fbtn" data-filter="todos" aria-pressed="true">Todos</button><button type="button" class="xc-fbtn" data-filter="video" aria-pressed="false">Videos</button><button type="button" class="xc-fbtn" data-filter="guia" aria-pressed="false">Guías</button><button type="button" class="xc-fbtn" data-filter="plantilla" aria-pressed="false">Plantillas</button><button type="button" class="xc-fbtn" data-filter="audio" aria-pressed="false">Audios</button><button type="button" class="xc-fbtn" data-filter="lectura" aria-pressed="false">Lecturas</button></div><p class="xc-count" id="cuenta-recursos" role="status" aria-live="polite"></p><ul class="xc-grid" id="lista-recursos"><li class="xc-card" id="r-estructura" data-cat="plantilla"><div class="xc-top"><span class="xc-type"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-pencil"/></svg>Plantilla</span><span class="chip ok"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-check-circle"/></svg>Disponible</span></div><div class="xc-thumb" aria-hidden="true"><span class="xc-lines"><i></i><i></i><i></i><i></i></span></div><h2 class="xc-title">Estructura de un sermón en tres puntos</h2><p class="xc-desc">Una hoja para ordenar la introducción, los tres puntos y el cierre antes de predicar.</p><p class="xc-meta">2 páginas · Módulo 2 · Pr. Luis Bello</p><div class="xc-actions"><button class="btn btn-line" type="button" data-proto="«Estructura de un sermón en tres puntos» no forma parte de esta maqueta. Aquí se abriría el recurso.">Abrir plantilla</button></div></li><li class="xc-card" id="r-llamado" data-cat="video"><div class="xc-top"><span class="xc-type"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-play"/></svg>Video</span><span class="chip ok"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-check-circle"/></svg>Disponible</span></div><div class="xc-thumb" aria-hidden="true"><span class="xc-play"></span><span class="xc-dur">7:42</span></div><h2 class="xc-title">Cómo hacer el llamado con respeto</h2><p class="xc-desc">Un llamado claro, sin presión, que deja libre al oyente.</p><p class="xc-meta">7 min 42 s · Módulo 3 · Pr. Luis Bello</p><div class="xc-actions"><button class="btn btn-line" type="button" data-proto="«Cómo hacer el llamado con respeto» no forma parte de esta maqueta. Aquí se abriría el recurso.">Ver video</button></div></li><li class="xc-card" id="r-bautismo" data-cat="guia"><div class="xc-top"><span class="xc-type"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-book"/></svg>Guía</span><span class="chip ok"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-check-circle"/></svg>Disponible</span></div><div class="xc-thumb" aria-hidden="true"><span class="xc-lines"><i></i><i></i><i></i><i></i></span></div><h2 class="xc-title">Preguntas frecuentes sobre el bautismo</h2><p class="xc-desc">Respuestas breves con texto bíblico para quien está pensando en bautizarse. Creencia fundamental n.º 15.</p><p class="xc-meta">6 páginas · Módulo 3 · Pr. Luis Bello</p><div class="xc-actions"><button class="btn btn-line" type="button" data-proto="«Preguntas frecuentes sobre el bautismo» no forma parte de esta maqueta. Aquí se abriría el recurso.">Abrir guía</button></div></li><li class="xc-card" id="r-guion" data-cat="plantilla"><div class="xc-top"><span class="xc-type"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-pencil"/></svg>Plantilla</span><span class="chip ok"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-check-circle"/></svg>Disponible</span></div><div class="xc-thumb" aria-hidden="true"><span class="xc-lines"><i></i><i></i><i></i><i></i></span></div><h2 class="xc-title">Guion de estudio bíblico con llamado final</h2><p class="xc-desc">Un guion de 40 minutos con un momento de invitación al final.</p><p class="xc-meta">1 página · Módulo 3 · Pr. Luis Bello</p><div class="xc-actions"><button class="btn btn-line" type="button" data-proto="«Guion de estudio bíblico con llamado final» no forma parte de esta maqueta. Aquí se abriría el recurso.">Abrir plantilla</button></div></li><li class="xc-card is-locked" id="r-hechos8" data-cat="lectura"><div class="xc-top"><span class="xc-type"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-book"/></svg>Lectura</span><span class="chip lock"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-lock"/></svg>Bloqueado</span></div><div class="xc-thumb"><blockquote class="xc-quote">«¿Qué impide que yo sea bautizado?»<cite>Hechos 8:36</cite></blockquote></div><h2 class="xc-title">Hechos 8:26-39 con notas de contexto</h2><p class="xc-desc">El encuentro de Felipe con el etíope, con notas para preparar un estudio.</p><p class="xc-meta">10 min · Módulo 4 · Pr. Esteban Molina</p><p class="xc-lock"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-lock"/></svg><span>Se abre cuando tu mentor avale el módulo 3.</span></p></li><li class="xc-card is-locked" id="r-ilustraciones" data-cat="guia"><div class="xc-top"><span class="xc-type"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-book"/></svg>Guía</span><span class="chip lock"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-lock"/></svg>Bloqueado</span></div><div class="xc-thumb" aria-hidden="true"><span class="xc-lines"><i></i><i></i><i></i><i></i></span></div><h2 class="xc-title">Banco de ilustraciones para jóvenes</h2><p class="xc-desc">Historias cortas y actuales que ayudan a explicar un punto del sermón.</p><p class="xc-meta">20 historias · Módulo 5 · Pr. Luis Bello</p><p class="xc-lock"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-lock"/></svg><span>Se abre al completar el módulo 4.</span></p></li><li class="xc-card is-locked" id="r-voz" data-cat="audio"><div class="xc-top"><span class="xc-type"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-mic"/></svg>Audio</span><span class="chip lock"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-lock"/></svg>Bloqueado</span></div><div class="xc-thumb" aria-hidden="true"><span class="xc-wave"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span></div><h2 class="xc-title">Tono, ritmo y pausas al predicar</h2><p class="xc-desc">Ejercicios de voz para hablar con calma y ser entendido en el fondo del salón.</p><p class="xc-meta">12 min · Módulo 6 · Pr. Camilo Paba</p><p class="xc-lock"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-lock"/></svg><span>Se abre al completar el módulo 5.</span></p></li><li class="xc-card is-locked" id="r-presentacion" data-cat="guia"><div class="xc-top"><span class="xc-type"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-book"/></svg>Guía</span><span class="chip lock"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-lock"/></svg>Bloqueado</span></div><div class="xc-thumb" aria-hidden="true"><span class="xc-lines"><i></i><i></i><i></i><i></i></span></div><h2 class="xc-title">Presentación personal en el púlpito</h2><p class="xc-desc">Criterios de sobriedad y respeto para vestir y presentarse ante la congregación.</p><p class="xc-meta">4 páginas · Módulo 7 · Pr. Luis Bello</p><p class="xc-lock"><svg class="ic " aria-hidden="true" focusable="false"><use href="#i-lock"/></svg><span>Se abre al completar el módulo 6.</span></p></li></ul>
+<section class="panel help" id="ayuda" aria-labelledby="ayuda-t">
+      <h2 id="ayuda-t">¿Necesitas ayuda?</h2>
+      <div class="person" style="margin-top:.5rem"><div class="avatar" aria-hidden="true">LB</div><div><strong>Pr. Luis Bello</strong><p class="note">Responde en menos de 48 horas</p></div></div>
+      <p class="note" style="margin-top:.75rem">luis.bello@example.org</p>
+      <a class="btn btn-line" style="margin-top:1rem" href="mailto:luis.bello@example.org"><svg class="ic"><use href="#i-mail"/></svg>Escribir a mi mentor</a>
+    </section>
+
+</main>
+</div>
+</div>
+
+<dialog id="dlg-send" aria-labelledby="dlg-send-t" data-done="Sermón enviado al Pr. Luis Bello. Te responderá en menos de 48 horas.">
+  <form method="dialog">
+    <h2 id="dlg-send-t">¿Enviar este sermón al Pr. Luis Bello?</h2>
+    <p>Tu mentor lo revisará y te responderá en menos de 48 horas. Mientras lo revisa no podrás cambiarlo. Si todavía no estás seguro, guarda un borrador y envíalo después.</p>
+    <div class="actions">
+      <button class="btn btn-quiet" type="submit" value="cancel">Volver y seguir editando</button>
+      <button class="btn" type="submit" value="ok">Sí, enviar a mi mentor</button>
+    </div>
+  </form>
+</dialog>
+
+<nav class="tabbar" aria-label="Principal (móvil)">
+  <ul>
+    <li><a href="1-inicio.html"><svg class="ic"><use href="#i-home"/></svg>Inicio</a></li>
+    <li><a href="2-leccion.html"><svg class="ic"><use href="#i-book"/></svg>Módulos</a></li>
+    <li><a href="3-evaluacion.html"><svg class="ic"><use href="#i-check"/></svg>Cuestionarios</a></li>
+    <li><a href="4-predicador.html"><svg class="ic"><use href="#i-mic"/></svg>Púlpito</a></li>
+  </ul>
+</nav>
+<script src="app.js"></script>
+<script src="extras.js"></script>
+</body>
+</html>
